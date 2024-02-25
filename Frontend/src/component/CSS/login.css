@@ -1,0 +1,369 @@
+ .b{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-size: cover;
+    background-image: url('../../../public/logo1.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.formtop{ 
+    margin-top: 20px;
+}
+.button-19 {
+  appearance: button;
+  background-color: #00509B;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: din-round,sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: .8px;
+  line-height: 20px;
+  margin: 0;
+  outline: none;
+  overflow: visible;
+  padding: 13px 16px;
+  text-align: center;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  transform: translateZ(0);
+  transition: filter .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.button-19:after {
+  background-clip: padding-box;
+  background-color: #00509B;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  bottom: -4px;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.button-19:main,
+.button-19:focus {
+  user-select: auto;
+}
+
+.button-19:hover:not(:disabled) {
+  filter: brightness(1.1);
+  -webkit-filter: brightness(1.1);
+}
+
+.button-19:disabled {
+  cursor: auto;
+}
+
+.button-19:active {
+  border-width: 4px 0 0;
+  background: none;
+}
+form {
+
+    max-width: 800px;
+    padding: 100px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+ }
+  
+  .form-label {
+    font-size: 25px;
+  } 
+
+  
+  .form-control {
+    margin-top: 10px;
+    margin: auto;
+    padding: 20px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  .text{
+    text-align: left
+  }
+.input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: border-color 0.3s ease-in-out; 
+}
+
+.input:hover {
+  border-color: #999;
+
+}
+
+  
+  .btn-primary {
+    background-color: #007bff;
+    color: #ffffff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  .mt-3 {
+    margin-top: 20px;
+  }
+
+  .logo-container {
+  text-align: center;
+  margin-top: auto 
+}
+
+.logo {
+  max-width: 50%; 
+  height: auto; 
+  margin-bottom: 20px; 
+}
+  @media (max-width: 768px) {
+    form {
+      max-width: 100%;
+    }
+  }
+/* Styling for input containers */
+.input-container {
+  margin-bottom: 15px;
+}
+
+/* Styling for labels */
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Styling for input fields */
+input[type="username"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: border-color 0.3s ease-in-out; /* Smooth transition for border color change */
+}
+
+/* Styling for input fields on hover */
+input[type="username"]:hover,
+input[type="password"]:hover {
+  border-color: #999;
+  /* Add other hover effects as desired */
+}
+
+/* Styling for input fields when focused */
+input[type="username"]:focus,
+input[type="password"]:focus {
+  outline: none;
+  border-color: #3366ff; /* Change border color when focused */
+  box-shadow: 0 0 5px rgba(51, 102, 255, 0.5); /* Add a subtle shadow when focused */
+}
+
+/* Styling for the submit button */
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #3366ff;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out; /* Smooth transition for background color change */
+}
+
+/* Styling for the submit button on hover */
+button:hover {
+  background-color: #254eda;
+  /* Add other hover effects as desired */
+}
+
+/* Home styles */
+
+body{margin-top:20px;
+  color: #2e323c;
+  background: #f5f6fa;
+  position: relative;
+  height: 100%;
+}
+
+.container{
+  margin-top: 30px;
+}
+
+.invoice-container {
+  padding: 1rem;
+}
+.invoice-container .invoice-header .invoice-logo {
+  margin: 0.8rem 0 0 0;
+  display: inline-block;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #2e323c;
+}
+.invoice-container .invoice-header .invoice-logo img {
+  max-width: 130px;
+}
+.invoice-container .invoice-header address {
+  font-size: 0.8rem;
+  color: #9fa8b9;
+  margin: 0;
+}
+.invoice-container .invoice-details {
+  margin: 1rem 0 0 0;
+  padding: 1rem;
+  line-height: 180%;
+  background: #f5f6fa;
+}
+.invoice-container .invoice-details .invoice-num {
+  text-align: right;
+  font-size: 0.8rem;
+}
+.invoice-container .invoice-body {
+  padding: 1rem 0 0 0;
+}
+.invoice-container .invoice-footer {
+  text-align: center;
+  font-size: 0.7rem;
+  margin: 5px 0 0 0;
+}
+
+.invoice-status {
+  text-align: center;
+  padding: 1rem;
+  background: #ffffff;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+}
+.invoice-status h2.status {
+  margin: 0 0 0.8rem 0;
+}
+.invoice-status h5.status-title {
+  margin: 0 0 0.8rem 0;
+  color: #9fa8b9;
+}
+.invoice-status p.status-type {
+  margin: 0.5rem 0 0 0;
+  padding: 0;
+  line-height: 150%;
+}
+.invoice-status i {
+  font-size: 1.5rem;
+  margin: 0 0 1rem 0;
+  display: inline-block;
+  padding: 1rem;
+  background: #f5f6fa;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+}
+.invoice-status .badge {
+  text-transform: uppercase;
+}
+
+@media (max-width: 767px) {
+  .invoice-container {
+      padding: 1rem;
+  }
+}
+
+
+.custom-table {
+  border: 1px solid #e0e3ec;
+}
+.custom-table thead {
+  background: #007ae1;
+}
+.custom-table thead th {
+  border: 0;
+  color: black !important;
+}
+.custom-table > tbody tr:hover {
+  background: #fafafa;
+}
+.custom-table > tbody tr:nth-of-type(even) {
+  background-color: #ffffff;
+}
+.custom-table > tbody td {
+  border: 1px solid #e6e9f0;
+}
+
+
+.card {
+  background: #ffffff;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  border: 0;
+  margin-bottom: 1rem;
+}
+
+.text-success {
+  color: #00bb42 !important;
+}
+
+.text-muted {
+  color: #9fa8b9 !important;
+}
+
+.custom-actions-btns {
+  margin: auto;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.custom-actions-btns .btn {
+  margin: .3rem 0 .3rem .3rem;
+}
+
+
+#sallary-submit-btn {
+  background: -webkit-linear-gradient(right, rgb(15, 8, 55), rgb(15, 8, 55));
+  border: none;
+  border-radius: 21px;
+  box-shadow: 0px 1px 8px rgb(15, 8, 55);
+  cursor: pointer;
+  color: white;
+  font-family: "Raleway SemiBold", sans-serif;
+  height: 42.3px;
+  margin: 0 auto;
+  margin-top: 3px;
+  transition: 0.25s;
+  width: 153px;
+}
+#sallary-submit-btn:hover {
+  box-shadow: 0px 1px 18px rgb(15, 8, 55);
+}
+
+.structure-card{
+  background: #ffffff;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  border: 0;
+  margin-bottom: 1rem;
+}
+
+.structure-card {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
